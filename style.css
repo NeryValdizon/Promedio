@@ -31,6 +31,10 @@ p{
     padding: 10px;
     margin-top: 20px;
 }
+.calcular:hover{
+    background-color: rgb(0, 0, 139);
+    cursor: pointer;
+}
 .limpiar{
     background-color: rgb(255, 0, 0);
     color: rgb(255, 255, 255);
@@ -40,6 +44,10 @@ p{
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
+}
+.limpiar:hover{
+    background-color: rgb(139, 0, 0);
+    cursor: pointer;
 }
 .container{
     width: 25%;
