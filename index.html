@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salarios</title>
+    <!--llamado del documento javascript-->
+    <script type="text/javascript" src="promedio.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stars">
+  <div class="twinkling">
+    <h1>Nota Promedio</h1>
+    <!--calcular el salario-->
+<div class="container">
+    <p>Calcular la nota promedio </p>
+    <form action="promedio.js">
+        <!--caja de texto para ingresar los salrios-->
+        <input type="text" name="n1" placeholder="Ingrese La Primera Nota" id="n1">
+        <br><br>
+        <input type="text" name="n2" placeholder="Ingrese La Segunda Nota" id="n2">
+        <br><br>
+        <input type="text" name="n3" placeholder="Ingrese La Tercera Nota" id="n3">
+        <br><br>
+        <input type="text" name="n4" placeholder="Ingrese La Cuarta Nota" id="n4">
+        <br><br>
+        <input type="text" name="n5" placeholder="Ingrese La Quinta Nota" id="n5">
+        <br><br>
+        <!--llamado del script-->
+        <button type="button" onclick="calcularpromedio()" class="calcular">Calcular</button>
+        <button type="button" onclick="limpiar()" class="limpiar">Limpiar</button>
+        <!--Etiqueta para mostrar resultado-->
+        <p id="resultado"></p>
+    </form>
+</div>
+</div>
+</div>
+    
+</body>
+</html>
